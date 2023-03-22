@@ -3,22 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { FormulationComponent } from './formulario-inicio/formulario-inicio.component';
-import {MatTableModule} from '@angular/material/table';
-
+import { NovaTransferenciaComponent } from './nova-transferencia/nova-transferencia.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FormulationComponent
+    NovaTransferenciaComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatTableModule
-
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
